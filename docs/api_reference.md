@@ -145,6 +145,12 @@ Or list all products owned by you:
 GET api/v1/marketplace/seller/products
 ```
 
+Or list active products owned by you:
+
+```
+GET api/v1/marketplace/seller/products/active
+```
+
 Response
 ```
 HTTP 200 OK
